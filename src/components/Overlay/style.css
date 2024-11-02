@@ -1,0 +1,8 @@
+.transpBg {
+  background: var(--transp);
+  padding: 2rem;
+  display: inline-block;
+  position: fixed;
+  top: 35%;
+  left: 40%;
+}
