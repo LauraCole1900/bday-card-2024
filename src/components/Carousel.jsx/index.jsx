@@ -3,15 +3,15 @@ import './style.css';
 
 const Carousel = () => {
   const pics = [
-    'url(./src/assets/winter-1.jpg)',
     'url(./src/assets/spring-1.jpg)',
     'url(./src/assets/summer-1.JPEG)',
     'url(./src/assets/autumn-1.jpg)',
+    'url(./src/assets/winter-1.jpg)',
     'url(./src/assets/aurora-1.jpg)',
-    'url(./src/assets/winter-2.jpg)',
     'url(./src/assets/spring-2.JPEG)',
     'url(./src/assets/summer-2.jpg)',
     'url(./src/assets/autumn-2.jpg)',
+    'url(./src/assets/winter-2.jpg)',
     'url(./src/assets/aurora-2.jpg)',
   ];
 
@@ -33,7 +33,6 @@ const Carousel = () => {
   useEffect(() => {
     const indexInterval = setInterval(() => {
       setMainIndex((prev) => ({
-        ...prev,
         main: setIndex(prev.main),
         second: setIndex(prev.second),
         third: setIndex(prev.third),

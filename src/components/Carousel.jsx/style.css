@@ -18,33 +18,52 @@
 
 #main {
   grid-area: main;
+  border: var(--borWid) solid var(--charcoal);
 }
+
 #second {
   grid-area: second;
+  border: var(--borWid) solid var(--charcoal);
 }
+
 #third {
   grid-area: third;
+  border: var(--borWid) solid var(--charcoal);
 }
+
 #fourth {
   grid-area: fourth;
+  border: var(--borWid) solid var(--charcoal);
 }
+
 #fifth {
   grid-area: fifth;
+  border: var(--borWid) solid var(--charcoal);
 }
+
 #sixth {
   grid-area: sixth;
+  border: var(--borWid) solid var(--charcoal);
 }
+
 #seventh {
   grid-area: seventh;
+  border: var(--borWid) solid var(--charcoal);
 }
+
 #eighth {
   grid-area: eighth;
+  border: var(--borWid) solid var(--charcoal);
 }
+
 #ninth {
   grid-area: ninth;
+  border: var(--borWid) solid var(--charcoal);
 }
+
 #tenth {
   grid-area: tenth;
+  border: var(--borWid) solid var(--charcoal);
 }
 
 .photo-grid-area {
