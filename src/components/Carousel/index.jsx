@@ -3,8 +3,8 @@ import './style.css';
 
 const Carousel = () => {
   const pics = [
-    'url(/assets/spring-1.jpg)',
-    'url(/assets/summer-1.JPEG)',
+    'url(/src/assets/spring-1.jpg)',
+    'url(/src/assets/summer-1.JPEG)',
     'url(/assets/autumn-1.jpg)',
     'url(/assets/winter-1.jpg)',
     'url(/assets/aurora-1.jpg)',
