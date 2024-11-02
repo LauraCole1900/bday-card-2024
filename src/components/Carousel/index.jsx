@@ -3,16 +3,16 @@ import './style.css';
 
 const Carousel = () => {
   const pics = [
-    'url(/images/spring-1.jpg)',
-    'url(/images/summer-1.JPEG)',
-    'url(/images/autumn-1.jpg)',
-    'url(/images/winter-1.jpg)',
-    'url(/images/aurora-1.jpg)',
-    'url(/images/spring-2.JPEG)',
-    'url(/images/summer-2.jpg)',
-    'url(/images/autumn-2.jpg)',
-    'url(/images/winter-2.jpg)',
-    'url(/images/aurora-2.jpg)',
+    'url(/spring-1.jpg)',
+    'url(/summer-1.JPEG)',
+    'url(/autumn-1.jpg)',
+    'url(/winter-1.jpg)',
+    'url(/aurora-1.jpg)',
+    'url(/spring-2.JPEG)',
+    'url(/summer-2.jpg)',
+    'url(/autumn-2.jpg)',
+    'url(/winter-2.jpg)',
+    'url(/aurora-2.jpg)',
   ];
 
   const [mainIndex, setMainIndex] = useState({
