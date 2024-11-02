@@ -36,7 +36,7 @@ This project is intended to be used to send "happy birthday" greetings.
 
 ## Technologies Used
 
-[[![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/)]
+[![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/)
 
 ## Credits
 
