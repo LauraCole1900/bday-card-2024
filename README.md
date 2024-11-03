@@ -40,7 +40,7 @@ This project is intended to be used to send "happy birthday" greetings.
 
 ## Credits
 
-N/A
+Bounce animation courtesy [CSS Tricks](https://css-tricks.com/bounce-element-around-viewport-in-css/)
 
 ## Contributing
 
