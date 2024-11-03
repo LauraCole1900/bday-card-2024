@@ -3,7 +3,7 @@ import './style.css';
 const Copyright = () => {
 
   return (
-    <p className='copyright'>Photographs Copyright © Laura E. Cole</p>
+    <p className='copyright'>Photographs copyright © Laura E. Cole</p>
   )
 };
 
