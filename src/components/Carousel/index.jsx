@@ -3,7 +3,7 @@ import './style.css';
 
 const Carousel = () => {
   const pics = [
-    `url(${process.env.PUBLIC_URL + '/spring-1.jpg'})`,
+    `url(${import.meta.env.PUBLIC_URL + '/spring-1.jpg'})`,
     'url(../summer-1.JPEG)',
     'url(../autumn-1.jpg)',
     'url(../winter-1.jpg)',
