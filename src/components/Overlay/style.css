@@ -1,9 +1,29 @@
 .transpBg {
-  background: var(--transp);
-  padding: 2rem;
   display: inline-block;
   position: fixed;
-  top: 35%;
-  left: 40%;
+  top: 0;
+  left: 0;
   width: 400px;
+  height: 320px;
+}
+
+#x {
+  animation: x 13s linear infinite alternate;
+}
+
+#y {
+  background: var(--transp);
+  padding: 2rem;
+  animation: y 7s linear infinite alternate;
+}
+
+@keyframes x {
+  100% {
+    transform: translateX(calc(100vw - 400px));
+  }
+}
+@keyframes y {
+  100% {
+    transform: translateY(calc(100vh - 320px));
+  }
 }
