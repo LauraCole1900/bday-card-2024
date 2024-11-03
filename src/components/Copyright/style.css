@@ -1,0 +1,8 @@
+.copyright {
+  font-size: 10pt;
+  background: var(--transp);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
