@@ -1,19 +1,18 @@
 import { useEffect, useState } from 'react';
-import { Aurora1, Aurora2, Autumn1, Autumn2, Spring1, Spring2, Summer1, Summer2, Winter1, Winter2 } from '../../images';
 import './style.css';
 
 const Carousel = () => {
   const pics = [
-    `url(${Spring1})`,
-    `url(${Summer1})`,
-    `url(${Autumn1})`,
-    `url(${Winter1})`,
-    `url(${Aurora1})`,
-    `url(${Spring2})`,
-    `url(${Summer2})`,
-    `url(${Autumn2})`,
-    `url(${Winter2})`,
-    `url(${Aurora2})`,
+    'url(/spring-1.jpg)',
+    'url(/summer-1.JPEG)',
+    'url(/autumn-1.jpg)',
+    'url(/winter-1.jpg)',
+    'url(/aurora-1.jpg)',
+    'url(/spring-2.JPEG)',
+    'url(/summer-2.jpg)',
+    'url(/autumn-2.jpg)',
+    'url(/winter-2.jpg)',
+    'url(/aurora-2.jpg)',
   ];
 
   const [mainIndex, setMainIndex] = useState({
